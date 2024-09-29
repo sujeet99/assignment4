@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(53, 52, 52);
+    height: 6vh;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    color: rgb(212, 205, 205);
+    gap: 15px;
+    
+}
+.nav{
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    background-color: rgb(13, 13, 13);
+    width: 100%;
+    height: 5vh;
+}
+.h4 {
+    color: aliceblue; text-align: center; padding-top: 10px;
+}
+.div2 {
+    background-color: rgb(53, 52, 52);
+    width: 100%;
+    height: 560px;
+}
+.image1{
+    height: 560px;
+    width: 100%;
+    object-fit: cover;
+}
+.div2 {
+    position: relative;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+
+}
+
+
+
+.image-heading {
+    position: absolute;
+    top: 40px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.image-subheading {
+    position: absolute;
+    top: 80px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.div3 {
+    background: linear-gradient(to bottom, rgb(6, 54, 148), white);
+    width: 100%;
+    height: 60vh;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.div3-down{
+    
+    
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: rgb(1, 3, 15);
+    
+    
+}
+button{
+    background-color: rgb(20, 91, 235);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.footer {
+    gap: 500px;
+    background-color: rgb(231, 227, 227);
+    width: 80%; 
+    height: 40vh;
+    margin: 140px auto 0; 
+    
+    justify-content: center;
+    
+}
+
+.footer-1{
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+}
+.footer-2{
+    
+    display: flex;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+    gap: 100px;
+    
+}
+.ul1{
+    list-style-type: none;
+}
